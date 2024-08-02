@@ -11,6 +11,7 @@ ingress:
   enabled: false
 replicaCount: 1
 tolerations: []
+test: "true"
 service:
   port: 80
   type: "ClusterIP"
