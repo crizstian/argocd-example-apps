@@ -16,6 +16,5 @@ service:
   type: "ClusterIP"
 containerPort: 80
 resources: {}
-tag: "0.2"
 nodeSelector: {}
 affinity: {}
